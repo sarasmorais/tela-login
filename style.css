@@ -62,6 +62,35 @@ body{
     position: absolute;
     right: 20px;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-50%); /*  centralizar o icon*/
     font-size: 20px;
+}
+
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+}
+
+.remember-forgot label input{
+    accent-color: #fff; /* cor  dentro do check box  */
+    margin-right: 5px;
+    margin: -15px 0 15px;
+
+}
+
+/* margin e padding 
+    1 valor - todos os lados
+    2 valores - margin: 20px 30px  - 1º valor em cima e embaixo; 2º valor dos lados 
+    3 valores - padding: 20px 10px 30px -  1º em cima; 2º dos lados, 3º embaixo
+    4 valorses - margin: 10px 20px 30px 40px - 1º em cima; 2º direita; 3º embaixo; 4º esquerda
+*/
+
+.remember-forgot a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+
 }
